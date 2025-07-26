@@ -58,7 +58,7 @@
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="/">Abhigna Kumar Vaddepally</a></h1>
-				<span class="position"><a href="/">Full Stack Developer</a></span>
+				<span class="position"><a href="/">Full Stack Engineer</a></span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
@@ -68,7 +68,7 @@
 						<li><a href="/" data-nav-section="experience">Experience</a></li>
 						<li><a href="/" data-nav-section="work">Projects</a></li>
 						<li><a href="/" data-nav-section="education">Education</a></li>
-						<!-- <li><a href="/" data-nav-section="blog">Certifications and Courses</a></li> -->
+						<li><a href="/" data-nav-section="certifications">Certifications</a></li>
 						<li><a href="/" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
@@ -184,7 +184,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
-								<h3>Next.js, React, Tailwind CSS, HTML, CSS</h3>
+								<h3>Next.js, React, TailwindCSS, HTML, CSS, ShadCN UI</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="100"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
@@ -195,7 +195,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>Node.js, Express, RESTful API, WebSocket, Redis, Kafka</h3>
+								<h3>Node.js, Express.js, Redis, Apache Kafka, RESTful API, WebSocket, Prisma ORM</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="100"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
@@ -206,7 +206,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
-								<h3>PostgreSQL, Microsoft SQL Server, MySQL, MongoDB (NoSQL), PrismaORM</h3>
+								<h3>PostgreSQL, Microsoft SQL Server, MySQL, MongoDB (NoSQL)</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="100"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
@@ -217,8 +217,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>LLMs, LangChain, LangGraph, Function/Tool Calling, Hugging Face Transformers, AI Agents,
-OpenAI SDK, Google Gemini SDK, Prompt Engineering, RAG, PyTorch, Numpy, Pandas, Matplotlib, Scikit-Learn</h3>
+								<h3>LLMs, LangChain, LangGraph, Function/Tool Calling, Prompt Engineering, PyTorch, Numpy, Pandas, Matplotlib, Scikit-Learn</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="100"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
@@ -261,14 +260,26 @@ OpenAI SDK, Google Gemini SDK, Prompt Engineering, RAG, PyTorch, Numpy, Pandas, 
 					               </div>
 
 					               <div class="timeline-label">
-					                  <h2><a href="/">Full Stack Engineer Intern  | Referrio Inc. | Remote</a> <span>April 2025 – Present</span></h2>
-									<p>• Developed secure Stripe payment flows (onboarding, payouts, webhooks) and optimized database schema with
-PrismaORM and PostgreSQL to enhance platform performance. <br>
-• Designed and implemented a responsive, accessible frontend using React, TailwindCSS, and ShadCN UI
-for Referrio’s recruitment and referral platform. <br>
-• Led migration from legacy to new codebase, applying industry standards and best practices for clean,
-readable, and maintainable code. <br>
-• Technologies used: React, Next.js, TypeScript, JavaScript, TailwindCSS, ShadCN UI, Node.js, Stripe SDK.</p>		
+					                  <h2><a href="/">Full Stack Engineer | Referrio Inc. | Remote</a> <span>April 2025 – Present</span></h2>
+									<p>• Architected and optimized PostgreSQL schemas and queries, ensuring high performance and scalability. <br>
+• Developed and maintained full-stack features using Next.js (React, TypeScript) with Server-Side Rendering
+(SSR) and server actions, delivering fast and SEO-friendly user experiences. <br>
+• Implemented secure authentication using BetterAuth in Next.js, integrating advanced session management and
+role-based access control (RBAC). <br>
+• Designed and built modern, responsive UIs with TailwindCSS and ShadCN UI, improving user engagement. <br>
+• Engineered a standalone payment microservice using Node.js (Express.js) and Stripe SDK for payment
+processing, supporting payouts, and webhook handling. <br>
+• Developed a resilient webhook handler to process Stripe events, incorporating row-level locking and
+transaction-safe updates for balance calculations, preventing race conditions and ensuring data consistency. <br>
+• Integrated GCP Cloud Tasks to schedule delayed jobs (e.g., updating the balance of ”Referrer” user after 30 days
+the ”Recruiter” user pays), enabling fault-tolerant asynchronous workflows. <br>
+• Built a distributed worker system using RabbitMQ (multi-queue architecture) to handle asynchronous tasks
+like sending emails (via Resend SMTP) and real-time in-app notifications (via Novu SDK). <br>
+• Dockerized and deployed microservices on GCP VM Instance, creating a scalable, cloud-native environment. <br>
+• Collaborated closely with the founding team to define technical architecture, CI/CD pipelines, and feature
+roadmaps, ensuring rapid product iterations in an early-stage startup environment. <br>
+• Technologies used: React, Next.js, TypeScript, JavaScript, TailwindCSS, ShadCN UI, BetterAuth, Node.js,
+Express.js, RabbitMQ, GCP Cloud Tasks, Docker, Resend, Novu, PostgreSQL, Prisma ORM, Stripe SDK.</p>		
 					               </div>
 					            </div>
 					         </article>
@@ -281,38 +292,65 @@ readable, and maintainable code. <br>
 					               </div>
 					               <div class="timeline-label">
 					               	<h2><a href="/">Programmer Analyst | Cognizant | Hyderabad, India</a> <span>August 2022 – June 2023</span></h2>
-					                  <p>• Enhanced Google Play Protect’s cybersecurity effectiveness by analyzing 60+ applications daily for malware,
-spyware, phishing, fraud risks, etc., using reverse engineering techniques in Java/Kotlin. <br>
-• Identified and flagged approximately 40% of analyzed applications as harmful each day, leading to the removal
-or policy compliance of unsafe apps on Google Play Store and enhancing security for roughly 5 million users.</p>
+					                  <p>• Contributed to Google Play Protect (Cybersecurity Project) for Google, performing in-depth security
+analysis on 60+ Android applications daily from the Google Play Store to detect malware, spyware,
+phishing, trojan, and other malicious behaviors. <br>
+• Leveraged reverse engineering and internal tools to analyze comprehensive app data (downloads, reviews,
+developer details, descriptions, screenshots) and classify apps as True Positive (malicious) or False Positive (safe). <br>
+• Utilized the Cavy internal tool for deep code analysis by decompiling Java/Kotlin source code of that
+application to investigate suspicious data flows (e.g., verifying if personal data like images or videos was being
+transmitted to remote servers without user consent), particularly for spyware detection. <br>
+• Accurately identified and flagged around 40% of daily analyzed apps as harmful, resulting in their removal or
+policy enforcement and strengthening the security of 10+ million users worldwide. <br>
+• Contributed to the Google BARD (predecessor to Google Gemini) project by rigorously evaluating
+AI-generated responses to diverse prompts, providing detailed feedback on correctness, relevance, and
+appropriateness, and flagging cases where the model should withhold responses, thereby improving the overall
+quality and reliability of the AI system. <br>
+• Technologies used: Java, Kotlin, Android</p>
 					               </div>
 					            </div>
 					         </article>
 
 							 <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
 					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
+					               <div class="timeline-icon color-3">
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
 					               	<h2><a href="/">Programmer Analyst Intern | Cognizant | Hyderabad, India</a> <span>April 2022 – July 2022</span></h2>
-					                  <p>• Acquired expertise in essential behavioral and cybersecurity skills through rigorous reverse engineering
-training, achieving a high level of accuracy in the identification of malicious applications.</p>
+					                  <p>• Developed a solid foundation in Java, Android development, and cybersecurity principles, focusing on
+threat identification and mitigation. <br>
+• Gained hands-on experience in reverse engineering Android applications to detect and analyze malicious
+activities, including spyware, phishing, trojans, and toll fraud. <br>
+• Collaborated with senior analysts to investigate malicious app behaviors, improving detection accuracy and
+reporting of security vulnerabilities. <br>
+• Acquired expertise in essential behavioral and cybersecurity practices through intensive training, enhancing
+analytical and problem-solving skills.</p>
 					               </div>
 					            </div>
 					         </article>
 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
+					               <div class="timeline-icon color-1">
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
 					               	<h2><a href="/">Machine Learning Intern | Indian Servers Pvt Ltd | Hyderabad, India</a> <span>July 2020 – September 2020</span></h2>
-					                  <p>• Engineered a machine learning solution for gender and age detection using models like Convolutional Neural
-Networks (CNN) and Support Vector Machines (SVM), tailored for high precision in image recognition. <br>
-• Achieved 75% accuracy by training on a comprehensive dataset of 20,000 images, which automated gender and
-age identification processes, saving multiple hours of manual work and enhancing workflow efficiency. <br>
+					                  <p>• Gained hands-on training in machine learning, neural networks, and machine learning models, with a
+focus on practical, real-world applications. <br>
+• Designed and implemented the end-to-end project “Gender and Age Classification using Machine
+Learning”, achieving 81.25% accuracy in gender prediction and 78.75% accuracy in age group prediction
+using the Adience dataset. <br>
+• Built custom PyTorch datasets and data loaders, implementing data preprocessing, normalization, and advanced
+augmentation techniques (random flips, rotations, and scaling) to improve model generalization and robustness. <br>
+• Developed, trained, and fine-tuned machine learning models for binary gender classification and multi-class
+age classification, improving performance through hyperparameter tuning, adaptive learning rate scheduling, and
+gradient descent optimization. <br>
+• Conducted model evaluation and error analysis using accuracy metrics, confusion matrices, precision/recall,
+and loss curves, iterating on architectures to reduce overfitting and enhance prediction reliability. <br>
+• Created data visualizations including dataset distributions, training/validation loss curves, and classification
+outputs using Matplotlib and Seaborn, enabling actionable insights for model improvements. <br>
 • Technologies used: Python, PyTorch, Numpy, Pandas, Matplotlib, Google Colab (Python Notebook).</p>
 					               </div>
 					            </div>
@@ -368,7 +406,7 @@ context-aware message handling. <br>
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="/">Simple ReAct AI Agent built from scratch using Google Gemini SDK</a> <span>July 2025</span></h2>
+					               	<h2><a href="/">Email Assistant ReAct AI Agent built from scratch using Google Gemini SDK</a> <span>July 2025</span></h2>
 					                  <p>• Built a fully functional autonomous agent from scratch using the ReAct (Reasoning + Acting) architecture,
 designed to simulate real-world decision-making and tool use. <br>
 • Integrated Google Gemini (gemini-2.5-flash LLM model) via the genai SDK to dynamically generate
@@ -393,17 +431,16 @@ execution, simplifying the reasoning loop. <br>
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="/">Document-based Conversational AI with IBM Watsonx LLM and LangChain</a> <span>July 2025</span></h2>
-					                  <p>• Developed a Flask-based web chatbot that enables users to upload PDF documents and ask contextual questions,
-receiving accurate, document-aware responses. <br>
-• Integrated IBM Watsonx’s Meta Llama 3-3-70B Instruct LLM with LangChain’s RetrievalQA to build a
-powerful retrieval-augmented generation (RAG) system. <br>
-• Handled document ingestion and processing using LangChain’s PyPDFLoader, split documents with
-RecursiveCharacterTextSplitter, and embedded text using HuggingFace’s all-MiniLM-L6-v2 model. <br>
-• Implemented a vector store with ChromaDB to efficiently retrieve semantically relevant chunks based on user
-queries using MMR (Maximal Marginal Relevance). <br>
-• Maintained real-time conversation history tracking to allow contextual multi-turn dialogue. <br>
-• Technologies used: Python, LangChain, Flask.</p>
+					               	<h2><a href="/">Multi-App Deployment Infrastructure on AWS</a> <span>November 2024</span></h2>
+					                  <p>• Designed and implemented a scalable deployment infrastructure to host multiple full-stack web applications on a
+single AWS EC2 instance. <br>
+• Dockerized production-grade projects (projects which are mentioned below) — Virtual Office App, Automation
+App and Digital Wallet App — ensuring consistent build and runtime environments. <br>
+• Configured Nginx as a reverse proxy to intelligently route traffic to the correct application based on
+subdomain mapping, enabling seamless access to each app. <br>
+• Streamlined deployment operations, making the applications publicly accessible and production-ready with minimal
+manual overhead. <br>
+• Technologies used: Docker, AWS EC2, Nginx, Linux</p>
 					               </div>
 					            </div>
 					         </article>
@@ -414,30 +451,58 @@ queries using MMR (Maximal Marginal Relevance). <br>
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="/">Image Captioning Web Application using Hugging Face Transformers and BLIP</a> <span>July 2025</span></h2>
-					                  <p>• Built a web-based image captioning tool, enabling users to upload images and receive human-like captions.
-• Leveraged Salesforce BLIP (Bootstrapped Language Image Pretraining) base model via Hugging Face to
-generate descriptive captions from raw images. <br>
-• Processed input images using AutoProcessor and generated captions using BlipForConditionalGeneration,
-achieving coherent natural language descriptions. <br>
-• Deployed a clean and interactive web interface with Gradio, simplifying user interaction. <br>
-• Technologies used: Python, Hugging Face Transformers, Gradio, BLIP.</p>
+					               	<h2><a href="/">Virtual Office Application</a> <span>November 2024</span></h2>
+					                  <p>• Developed an interactive virtual collaboration platform inspired by Gather Town, enabling users to join shared
+spaces, select avatars, and engage in real-time movement and interactions. <br>
+• Architected a Node.js backend with Express.js to handle authentication (JWT), space creation, and user
+management APIs. <br>
+• Built a WebSocket server (using ws) to manage real-time state synchronization across users, including movement
+validation (collision detection, boundary checks) and broadcasting updates to all participants in a space. <br>
+• Implemented a grid-based movement algorithm on the server, ensuring accurate and conflict-free positioning by
+validating moves against the current state of other players and the map. <br>
+• Designed a scalable client interface using React, TypeScript, TailwindCSS, and ShadCN UI, ensuring
+seamless real-time interactions with low-latency event handling. <br>
+• Engineered a future-ready architecture to support WebRTC-based video/audio calls when users are near each
+other in the virtual space. <br>
+• Technologies used: React, TypeScript, TailwindCSS, ShadCN UI, Node.js, Express.js, JWT, WebSocket (ws).</p>
+								<h4>System Design</h4>
+								<div style="display: flex; justify-content: center; align-items: center;">
+									<img style="width:100%; height: 100%;" src="/assets/system-design-images/VirtualOfficeApplication.jpg"></img>
+								</div>
+							   <h4 style="margin-top: 20px;">Demo Video</h4>
+								<div style="display: flex; justify-content: center; align-items: center;">
+									<video controls style="width:100%; height: 100%;" src="/assets/demo-videos/VirtualOfficeApplication.mov"></video>
+								</div>
 					               </div>
 					            </div>
 					         </article>
 
-							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-2">
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="/">Virtual Office Application</a> <span>November 2024</span></h2>
-					                  <p>• Implemented an interactive virtual platform like Gather Town, enabling up to 50 simultaneous users to join a
-digital space, select avatars, and engage in real-time movement for enhanced user interaction. <br>
-• Secured authentication using JSON Web Tokens and established a WebSocket server supporting real-time
-interactions with an average latency of under 100ms, providing a seamless and responsive user experience. <br>
-• Technologies used: React, TypeScript, JavaScript, Tailwind CSS, ShadCN UI, Node.js, Express.js, WebSocket.</p>
+					               	<h2><a href="/">Automation Application</a> <span>August 2024</span></h2>
+					                  <p>• Designed and developed a scalable automation platform inspired by Zapier, enabling users to create customizable
+workflows by configuring a triggers and actions. Imeplemented 1 trigger (Webhook) and 1 action (Send Email). <br>
+• Built an intuitive React-based UI using Next.js and TailwindCSS for seamless creation and management of
+triggers and actions. <br>
+• Implemented a robust event-driven architecture: webhook triggers enqueue tasks into Apache Kafka topic,
+which are then processed asynchronously by worker service to execute actions reliably. <br>
+• Integrated SendGrid SDK for sending emails based on trigger data, streamlining user workflows. <br>
+• Leveraged TypeScript and Turborepo for type-safe, modular development and monorepo management across
+frontend and backend codebases. <br>
+• Technologies used: Next.js, TypeScript, JavaScript, TailwindCSS, Node.js, Apache Kafka, SendGrid,
+PostgreSQL, Prisma ORM, Turborepo.</p>
+								<h4>System Design</h4>
+								<div style="display: flex; justify-content: center; align-items: center;">
+									<img style="width:100%; height: 100%;" src="/assets/system-design-images/AutomationApplication.jpg"></img>
+								</div>
+							   <h4 style="margin-top: 20px;">Demo Video</h4>
+								<div style="display: flex; justify-content: center; align-items: center;">
+									<video controls style="width:100%; height: 100%;" src="/assets/demo-videos/AutomationApplication.mov"></video>
+								</div>
 					               </div>
 					            </div>
 					         </article>
@@ -448,60 +513,59 @@ interactions with an average latency of under 100ms, providing a seamless and re
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="/">Automation Application</a> <span>August 2024</span></h2>
-					                  <p>Developed a web application replicating core functionalities of Zapier using Next.js for full-stack development and Tailwind CSS for
-										responsive design. Implemented a webhook service with Node.js and Express to efficiently handle incoming requests, and integrated Kafka
-										for asynchronous communication between a sweeper service that pushes triggers to a queue and a worker service that processes these triggers.
-										Utilized PostgreSQL as the database, employing Prisma as the ORM to streamline database interactions.</p>
-					               </div>
-					            </div>
-					         </article>
-
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
 					               	<h2><a href="/">Digital Wallet Application</a> <span>July 2024</span></h2>
-					                  <p>Created a comprehensive digital wallet application enabling users to transfer funds between their bank accounts and
-										digital wallet, as well as transfer from one user to another user (digital wallet). The project was implemented using
-										Next.js for both the frontend (also used Tailwind CSS for styling) and backend for the user application, while a
-										separate Node.js server handled bank webhooks to confirm successful bank transfers. Data management was
-										facilitated through a PostgreSQL database with Prisma as the ORM, and user authentication was managed with
-										Next Auth. The entire codebase was organized as a monorepo using Turborepo as a build system.</p>
-					               </div>
-					            </div>
-					         </article>
-
-							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="/">Asset Exchange Application</a> <span>June 2024</span></h2>
-					                  <p>Developed an asset exchange application like Coinbase, featuring a dynamic order book that allows users to place buy (bids) and sell (asks)
-										orders. The frontend was built using Next.js for a responsive user experience, while the backend was developed with Node.js to efficiently
-										manage order processing and user interactions. Employed Redis for pub/sub messaging and enabled real-time communication through
-										WebSocket integration to ensure seamless updates to the order book on the front-end.</p>
+					                  <p>• Architected and developed a secure digital wallet platform enabling users to on-ramp funds from bank accounts and
+perform real-time peer-to-peer wallet transactions. <br>
+• Designed and implemented a dedicated Node.js (Express.js) HTTP server to process bank webhook events for
+fund transfers, ensuring reliable updates to wallet balances. <br>
+• Utilized transactional row-level locking in PostgreSQL (via Prisma ORM) to ensure data integrity and
+prevent race conditions during concurrent balance updates. <br>
+• Engineered the front end with Next.js, TypeScript, and TailwindCSS, delivering a responsive and intuitive
+user interface for seamless wallet management. <br>
+• Employed a monorepo architecture (Turborepo) to streamline development workflows and improve modularity
+between front-end and back-end services. <br>
+• Technologies used: Next.js, TypeScript, TailwindCSS, Node.js, Express, PostgreSQL, Prisma ORM, Turborepo.</p>
+								<h4>System Design</h4>
+								<div style="display: flex; justify-content: center; align-items: center;">
+									<img style="width:100%; height: 100%;" src="/assets/system-design-images/DigitalWalletApplication.jpg"></img>
+								</div>
+							   <h4 style="margin-top: 20px;">Demo Video</h4>
+								<div style="display: flex; justify-content: center; align-items: center;">
+									<video controls style="width:100%; height: 100%;" src="/assets/demo-videos/DigitalWalletApplication.mov"></video>
+								</div>
 					               </div>
 					            </div>
 					         </article>
 
 							 <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
 					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
+					               <div class="timeline-icon color-1">
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
 					               	<h2><a href="/">Enhanced Form Builder Application</a> <span>April 2024</span></h2>
-					                  <p>Developed an advanced form creation and analytics tool using the MERN stack, featuring React for the frontend,
-										Node.js and Express for the backend, and MongoDB for the database. The application includes all standard form
-										functionalities such as form creation, various question types, generating a URL to share the form with the users,
-										and response visualization in a dashboard. An additional feature allows categorizing users into different groups and
-										sub-groups, enabling comparative analysis of responses across these different groups. The entire application was
-										deployed using Vercel.</p>
+					                  <p>• Engineered and delivered a production-grade form creation and analytics platform as part of a 3-member team for a
+real-world client, fulfilling all functional and technical requirements, and deployed on Vercel. <br>
+• Developed a dynamic front-end using React and Mantine UI library, enabling customizable question types,
+seamless form creation, and an intuitive user experience. <br>
+• Implemented RESTful APIs with Node.js and Express.js, handling secure form storage, response submissions,
+and real-time data retrieval. <br>
+• Integrated response analytics by building a real-time dashboard with polling mechanism, enabling instant
+visualization of responses and trends. <br>
+• Designed and built user categorization feature, allowing comparative insights across group-based responses. <br>
+• Led end-to-end backend development, including database schema design, data validation, and query
+optimization using MongoDB. <br>
+• Collaborated with a cross-functional team using Git, ensuring continuous integration, code reviews, and timely
+delivery of client milestones. <br>
+• Technologies used: React, Mantine UI, JavaScript, Node.js, Express.js, MongoDB, Vercel.</p>
+								<h4>System Design</h4>
+								<div style="display: flex; justify-content: center; align-items: center;">
+									<img style="width:100%; height: 100%;" src="/assets/system-design-images/EnhancedFormBuilderApplication.jpg"></img>
+								</div>
+							   <h4 style="margin-top: 20px;">Demo Video</h4>
+								<div style="display: flex; justify-content: center; align-items: center;">
+									<video controls style="width:100%; height: 100%;" src="/assets/demo-videos/EnhancedFormBuilderApplication.mov"></video>
+								</div>
 					               </div>
 					            </div>
 					         </article>
@@ -509,15 +573,24 @@ interactions with an average latency of under 100ms, providing a seamless and re
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
 
-					               <div class="timeline-icon color-1">
+					               <div class="timeline-icon color-2">
 					                  <i class="icon-pen2"></i>
 					               </div>
 
 					               <div class="timeline-label">
 					                  <h2><a href="/">Loan Eligible Prediction using various Machine Learning Models</a> <span>August 2022</span></h2>
-					                  <p>Implemented a project focused on forecasting loan applicant approval status through the application of advanced
-										machine learning techniques. Employed Logistic Regression, Decision Tree, Support Vector Machine, and Random
-										Forest algorithms to analyze and predict loan eligibility, enhancing accuracy in decision-making processes.</p>
+					                  <p>• Developed a machine learning pipeline to predict loan approval status based on applicant financial and
+demographic data. <br>
+• Performed data preprocessing with Pandas by handling missing values, encoding categorical variables, applying
+log transformations, and normalizing numerical features. <br>
+• Implemented and compared multiple ML models — Logistic Regression, Random Forest, Decision Tree,
+K-Nearest Neighbors (KNN), and Support Vector Machine (SVM) — evaluating performance using
+accuracy, F1-score, and confusion matrices with Scikit-learn. <br>
+• Visualized feature importance, distributions, and model metrics using Matplotlib and Seaborn, with
+CreditHistory identified as the most critical predictor. <br>
+• Demonstrated strong predictive capabilities by achieving 78% accuracy using Random Forest model,
+providing a reliable tool to assist financial institutions in making data-driven loan approval decisions. <br>
+• Technologies used: Python, Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn.</p>
 					               </div>
 					            </div>
 					         </article>
@@ -594,53 +667,38 @@ interactions with an average latency of under 100ms, providing a seamless and re
 				</div>
 			</section>
 
-			<!-- <section class="colorlib-blog" data-section="blog">
+			<section class="colorlib-work" data-section="certifications">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
+							<span class="heading-meta">Course Certifications and Awards</span>
+							<h2 class="colorlib-heading animate-box">Certifications</h2>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+
+							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<p>• IBM Generative AI Engineering Professional Certificate | Coursera <br>
+• AI Agents in LangGraph | DeepLearning.AI <br>
+• Ultimate AWS Certified Solutions Architect Associate SAA-C03 | Udemy <br>
+• 0-100 Full Stack Web Development Course | 100xdevs.com <br>
+• Blockchain and its Applications | NPTEL</p>
+					               </div>
+					            </div>
+					         </article>
+
+					      </div>
+					   </div>
+				   </div>
 				</div>
-			</section> -->
+			</section>
 
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
